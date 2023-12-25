@@ -1,2 +1,8 @@
-<h1><%= @articles.title  %></h1>
-<span><%= @articles.body  %></span>
+<h1><%= @article.title  %></h1>
+<span><%= @article.body  %></span>
+
+
+<ul>
+  <li><%= link_to "Edit", edit_article_path(@article) %></li>
+</ul>
+
